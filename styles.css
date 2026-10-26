@@ -1,0 +1,60 @@
+img{
+    position: absolute;
+    width: 130px;
+    height: auto;
+    top: 0;
+    left: 0;
+    transition: filter 0.3s;
+}
+
+body{
+    display: flex;
+    flex-direction:column;
+    align-items: center; /*centraliza horizontalmente*/
+    justify-content: flex-start; /*centraliza verticalmente*/
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+
+    /* Estilizando o background da página*/
+
+    background-image: url(./images/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#logo{
+    position: relative;
+    width: 250px;
+}
+
+#area{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    border: 3px solid #395ece;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.controles button{
+    padding: 10px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.controles button:hover{
+    background-color: #395ece;
+    color: #000000;
+
+}
